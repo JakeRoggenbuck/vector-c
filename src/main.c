@@ -3,11 +3,12 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
+#include "termcolor.h"
 
 void interactive() {
     double nums[4];
 
-    printf("> ");
+    cprint("> ", FG_GREEN);
     scanf("%lf %lf %lf", &nums[0], &nums[1], &nums[2]);
 
     struct Vec3 *v = build_vec3(nums[0], nums[1], nums[2]);
