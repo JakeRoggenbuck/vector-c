@@ -1,6 +1,19 @@
 #include "vectorc.h"
 #include <assert.h>
 #include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+
+void interactive() {
+    double nums[4];
+
+    printf("> ");
+    scanf("%lf %lf %lf", &nums[0], &nums[1], &nums[2]);
+
+    struct Vec3 *v = build_vec3(nums[0], nums[1], nums[2]);
+
+    display_vec3(v);
+}
 
 int main() {
     struct Vec3 *v = build_vec3(1, 2, 3);
@@ -18,6 +31,8 @@ int main() {
 
     // (1*3) + (2*4)
     assert(res2 == 3 + 8);
+
+    interactive();
 
     return 0;
 }

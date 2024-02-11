@@ -27,4 +27,7 @@ struct Vec3 *cross_vec3(struct Vec3 *a, struct Vec3 *b);
 double dot_vec2(struct Vec2 *a, struct Vec2 *b);
 double dot_vec3(struct Vec3 *a, struct Vec3 *b);
 
+void display_vec2(struct Vec2 *v);
+void display_vec3(struct Vec3 *v);
+
 #endif // VECTOR_H

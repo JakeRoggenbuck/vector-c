@@ -1,4 +1,5 @@
 #include "vectorc.h"
+#include <stdio.h>
 #include <stdlib.h>
 
 struct Vec2 *build_vec2(double x, double y) {
@@ -59,4 +60,10 @@ double dot_vec2(struct Vec2 *a, struct Vec2 *b) {
 
 double dot_vec3(struct Vec3 *a, struct Vec3 *b) {
     return (a->x * b->x) + (a->y * b->y) + (a->z * b->z);
+}
+
+void display_vec2(struct Vec2 *v) { printf("< %.2lf %.2lf >", v->x, v->y); }
+
+void display_vec3(struct Vec3 *v) {
+    printf("< %.2lf %.2lf %.2lf >", v->x, v->y, v->z);
 }
