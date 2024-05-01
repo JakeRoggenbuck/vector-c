@@ -1,3 +1,2 @@
 # Vectors-c
-Vectors in C
-
+Vector math in C
