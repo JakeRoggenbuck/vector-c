@@ -1,4 +1,7 @@
-# Vectors-c ![Build](https://img.shields.io/github/actions/workflow/status/jakeroggenbuck/all-the-NaN-floats/c-cpp.yml?branch=main&style=for-the-badge)
+# Vectors-c 
+![Build](https://img.shields.io/github/actions/workflow/status/jakeroggenbuck/all-the-NaN-floats/c-cpp.yml?branch=main&style=for-the-badge)
+[![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white)](https://github.com/JakeRoggenbuck?tab=repositories&q=&type=&language=c&sort=stargazers)
+
 Vector math in C
 
 ```c
