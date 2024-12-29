@@ -1,4 +1,7 @@
-# Vectors-c 
+# Vectors-c
+
+![image](https://github.com/user-attachments/assets/d939bbc5-f267-4960-80f5-c0609c456d12)
+
 ![Build](https://img.shields.io/github/actions/workflow/status/jakeroggenbuck/all-the-NaN-floats/c-cpp.yml?branch=main&style=for-the-badge)
 [![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white)](https://github.com/JakeRoggenbuck?tab=repositories&q=&type=&language=c&sort=stargazers)
 
